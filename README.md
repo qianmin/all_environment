@@ -16,3 +16,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 
 conda install pytorch torchvision cudatoolkit=10.2
 ```
+自动进入base取消
+conda config --set auto_activate_base false
+
+alias torch18='conda activate torch18'
