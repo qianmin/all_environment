@@ -1,6 +1,6 @@
+```
 1.PCL的安装
 
-在 Ubuntu 1604，PCL库已经存在于公共软件源中，直接安装即可。
 
 sudo apt-get install libpcl-dev
 
@@ -25,3 +25,12 @@ sudo apt-get install  pcl-tools
 
 3.PCL的简单测试
 。。。。
+```
+```
+libGL
+libEGL
+明明有，但是说没有，移出去，再移动进来
+sudo mv libEGL.so /usr/lib/x86_64-linux-gnu/
+
+https://blog.csdn.net/fb_941219/article/details/83549720
+``
