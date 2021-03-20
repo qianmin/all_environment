@@ -20,3 +20,7 @@ conda install pytorch torchvision cudatoolkit=10.2
 conda config --set auto_activate_base false
 
 alias torch18='conda activate torch18'
+
+
+司马pip
+python -m pip install --upgrade pip  --timeout 6000
