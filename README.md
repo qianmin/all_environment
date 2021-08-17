@@ -23,4 +23,6 @@ alias torch18='conda activate torch18'
 
 
 司马pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
 python -m pip install --upgrade pip  --timeout 6000
